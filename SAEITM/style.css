@@ -1,0 +1,262 @@
+body{
+    font-family: Cambria;
+}
+.header{
+    height: 10vh;
+    width: 100%;
+    padding: flex;
+    background-color: #212121;
+    position: relative;
+    border-bottom: 5px solid #99a211;
+}
+
+.nav-links{
+    padding: flex;
+    margin-right: 100px;
+
+}
+
+
+.formulaire{
+    background: #d1d361;
+    border-radius: 10px;
+    padding: flex;
+    width: 700px;
+    padding-left: 100px;
+    padding-bottom: 3px;
+}
+
+.formnom{
+    position: absolute;
+    display: flex; 
+    margin-top: 10px;
+    width: 5cm;
+    margin-left: 15px;
+}
+
+.formprenom{
+    position: absolute;
+    display: flex; 
+    margin-top: 100px;
+    width: 5cm;
+    margin-left: 15px;
+
+}
+
+.formpseudo{
+    position: absolute;
+    display: flex; 
+    margin-top: 190px;
+    width: 5cm;
+    margin-left: 15px;
+}
+
+.formmail{
+    position: absolute;
+    display: flex; 
+    margin-left: 7.8cm;
+    margin-top: 10px;
+    width: 5cm;
+
+}
+
+.formmdp{
+    display: flex;
+    margin-left: 4.5cm;
+    padding-top: 100px;
+    width: 5cm;
+ 
+}
+
+.formlevel{
+    display: flex;
+    width: 5cm;
+    margin-left: 160px;
+    padding-top: 0px;
+    margin-bottom: 1cm;
+    
+}
+
+
+.g-recaptcha{
+    display: flex;
+    margin-left: 3cm;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-container{
+    background-color: #212121;
+    padding-bottom: 2rem 0 4rem 0;
+}
+
+.footer{
+    height: 25vh;
+    width: 100%;
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 3cm;
+    border-top: 5px solid #99a211;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover{
+    color:#d1d361;
+    transition: 0.4s ease-out;
+}
+
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+}
+
+#footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder{
+    color: #b1b1b1;
+}
+
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #99a211;
+}
+
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: #46a211;
+    transition: all 0.4s ease-out;
+
+}
+
+
+
+
+
+
+
+
+
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+nav{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 140px;
+}
+
+.logoinscription1{
+    width: 10cm;
+    height: auto;
+    margin-left: 15cm;
+}
+
+.logoinscription2{
+    width: 10cm;
+    height: auto;
+    
+}
+
+.nav-links li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+}
+
+.nav-links li a::after{
+    content: '';
+    background:#99a211;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.nav-links li a:hover::after{
+    width: 100%;
+
+}
+
+.sinscrire{
+    color: #fff;
+    background: #99a211;
+    padding: 10px 30px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.validerinscription{
+    color: #fff;
+    background: #33a211;
+    padding: 10px 30px; 
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 2.6cm;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+   <head>
+      <title>Inscription</title>
+      <meta charset="utf-8">
+      <link REL="StyleSheet" TYPE="text/css" HREF="style.css">
+      <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lei0mAjAAAAAB_7vsoEmN_y8p0J99vjHDEAQ7CL"></script>
+   </head>
+
+
+   <body>
+
+     <div class="header">
+         <nav>
+         <img src = "image/logosite.png" class="logo">
+         <ul class="nav-links">
+            <li><a href="index.html"> Accueil</a></li>
+            <li><a href="event.html"> Événement</a></li>
+            <li><a href="multimedia.html"> Multimédia</a></li>
+            <li><a href="telechargement.html"> Téléchargement</a></li>
+            <li><a href="nospartenaires.html"> Nos partenaires</a></li>
+            <li><a href="seconnecter.html"> Se connecter</a></li>
+            <li class="sinscrire"><a href="formulaireinscription.html">Inscription</a></li>
+         </ul>
+      </nav>
+      </div>
+      <div>
+         <img src = "image/photo inscription1.jpg" class="logoinscription1">
+         <img src="image/photo inscription2.jpg" class="logoinscription2">
+      </div>
+   
+
+
+      <center>
+         <h2>Inscris-toi pour profiter de tout nos avantages !</h2>
+
+         <div class="formulaire">
+         <form action="inscription.php" method="post">
+             
+<p><div class="formnom">
+               <label for="nom"></label>
+               <input type="text" name="nom" id="nom" placeholder="Votre nom" required>
+            </div>
+            </p>
+ 
+             
+<p>
+   <div class="formprenom">
+               <label for="prenom"></label>
+               <input type="text" name="prenom" id="prenom" placeholder="Écrivez votre prénom" required>
+            </div>
+            </p>
+ 
+             
+<p>
+   <div class="formpseudo">
+               <label for="pseudo"></label>
+               <input type="text" name="pseudo" id="pseudo" placeholder="Nom d'utilisateur" required>
+            </div>
+            </p>
+ 
+            </form> 
+<p>
+   <form action="inscription.php" method="post">
+   <div class="formmail">
+               <label for="mail"></label>
+               <input type="text" name="mail" id="mail" placeholder="Entrez votre adresse mail" required>
+            </div>
+            </p>
+ 
+             
+<p>
+   <div class="formmdp">
+               <label for="password"></label>
+               <input type="password" name="password" id="password" placeholder="Tape ton mot de passe" required>
+            
+            </p>
+         </div>
+<p>
+   <div class="formlevel">
+               <label for="level">Votre niveau(1, le plus élevé): *</label>
+               <select name="level" size=1 id="level">
+                  <option selected>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+              </select>
+   </div>
+</p>
+<div class="g-recaptcha" data-sitekey="6Lei0mAjAAAAAB_7vsoEmN_y8p0J99vjHDEAQ7CL"></div>
+            <input class ="validerinscription" type="submit" name="valider" value="S'inscrire">
+         </div>
+         </form>
+      </center>
+      
+      <div class="fotter-container">
+         <div class="footer">
+             <div class="footer-heading footer-1">
+                 <h2> Liens utile</h2>
+                 <a href="#">A propos</a>
+                 <a href="#">Service</a>
+                 <a href="#">Histoire du club</a>
+             </div>
+             <div class="footer-heading footer-2">
+                 <h2> Contactez-nous</h2>
+                 <a href="#">Support</a>
+                 <a href="#">Contact</a>
+                 <a href="#">Partenaires</a>
+             </div>
+             <div class="footer-heading footer-3">
+                 <h2> Réseaux sociaux</h2>
+                 <a href="#">Instagram</a>
+                 <a href="#">Twitter</a>
+                 <a href="#">Facebook</a>
+             </div>  
+             <div class="footer-email-form">
+                 <h2>Rejoins notre Newsletter</h2>
+                 <input type="email" placeholder="Entrez votre adresse mail" id="footer-email">
+                 <input type="submit" value="S'inscrire" id="footer-email-btn">
+                 
+             </div>
+         </div>
+     </div>
+    </body>
+</html>
